@@ -6,7 +6,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum BrowserType {
-	CHROME("../DemoProject/src/com/demo/resources/chromedriver.exe"),
-	FIREFOX("../DemoProject/src/com/demo/resources/geckodriver.exe");	
+	CHROME("../SeleniumDemo/src/com/demo/resources/chromedriver.exe"),
+	FIREFOX("../SeleniumDemo/src/com/demo/resources/geckodriver.exe");	
 	private String driverPath;
 }
